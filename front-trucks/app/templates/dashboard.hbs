@@ -1,0 +1,13 @@
+<div class="menu">
+{{map/nav-bar logout="logout"}}
+  <br>
+  <div class="ui grid">
+    <div class="ten wide column">
+      {{map/google-map  markers=mapMarkers id="map"}}
+    </div>
+    <div class="six wide column">
+      {{map/input-form searchPos="searchPos" }}
+    </div>
+  </div>
+</div>
+{{outlet}}

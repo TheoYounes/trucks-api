@@ -1,0 +1,36 @@
+{
+  "name": "trucks-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "trucks-server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "circular-json": "^0.4.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "json-api": "*",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.0",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1"
+  },
+  "xo": {
+    "envs": [
+      "node"
+    ],
+    "space": 2,
+    "rules": {
+      "max-len": [
+        "error",
+        80,
+        2
+      ]
+    }
+  }
+}
