@@ -1,0 +1,30 @@
+<div class="title">
+  <h1> Truck Manager</h1>
+</div>
+<br>
+<br>
+<div class="center-card">
+  <div class="ui card">
+    <form class="ui form">
+      <div class="field">
+        <br>
+        <div class="card-explanation">
+          <p>Le truck manager est un outil de getion de camions,
+            cliquer sur le bouton lancement ci dessous pour que notre
+            IA calcule le meilleur chemin pour récuperer des resssources</p>
+          <br>
+        </div>
+      </div>
+
+    </form>
+    <button class="ui bottom attached button " type="submit" {{action
+      'searchPos'}}>
+      lancement
+    </button>
+  </div>
+</div>
+
+<h3>
+  Steps:
+</h3>
+{{yield}}

@@ -1,0 +1,23 @@
+<div class="menu">
+  <br>
+  <div class="">
+    <button class="ui button red" type="submit" {{action 'logout'}}>sign out
+    </button>
+
+    <div class="ui grid">
+      <div class="eight wide column">
+        <div class="map-container">
+          {{map/google-map  markers=mapMarkers id="map"}}
+        </div>
+      </div>
+
+      <div class="seven wide column">
+        <div class="card-2">
+        {{map/input-form searchPos="searchPos" }}
+      </div>
+      </div>
+    </div>
+    <div class="ui vertical divider "></div>
+  </div>
+</div>
+{{outlet}}
