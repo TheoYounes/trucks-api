@@ -1,8 +1,8 @@
 import Component from '@ember/component';
 
 export default Component.extend({
-  latitude: 48,
+  latitude: 47.0833300,
   longitude: 2.34,
-  myZoom: 5,
+  myZoom: 6,
 });
 
