@@ -4,10 +4,18 @@ export default Component.extend({
   address: '',
   init() {
     this._super(...arguments);
-    this.notDelivering = !this.get('trucks').content[0].__data.delivering;
+    console.log(this.get('trucks'));
+    if (this.get('trucks').content[0] === undefined) {
+
+      this.notDelivering = true;
+    } else {
+
+      this.notDelivering = !this.get('trucks').content[0].__data.delivering;
+
+    }
   },
   actions: {
-    searchPos(){
+    searchPos() {
     }
   }
 });
