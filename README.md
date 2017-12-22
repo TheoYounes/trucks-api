@@ -1,4 +1,4 @@
-# serveur de trucks-api
+# Manager de camions
 
 
 # contenu
@@ -87,7 +87,7 @@ localhost:27027
 initie la table des villes grace à un fichier JSON contenant une quizaine de villes francaise
 initie la table des distances, contenant le distances entre les différentes villes,  directement après.
 lorsque l'utilisateur effectuera un départ de camion, l'algo génétique se mettra en route.
-il prendra les villes et les distances stockées precedemment et crée un nombre(dans notre cas 10) de chromosome parent aléatoirement, qui
+il prendra les villes et les distances stockées precedemment et crée 10 chromosomes parent aléatoires, qui
 prendra en compte les noms des villes associés à leurs ressources et la distance totale du trajet ainsi que la somme de 
 toutes les ressources récupérées
 Les chromosomes enfant subissent une mutation de 30% de leurs gênes.
