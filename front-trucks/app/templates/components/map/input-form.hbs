@@ -11,17 +11,14 @@
         <div class="card-explanation">
           <p>Le truck manager est un outil de getion de camions,
             cliquer sur le bouton lancement ci dessous pour que notre
-            IA calcule le meilleur chemin pour récuperer des resssources
-             {{model.truck.isDelivering}}</p>
+            IA calcule le meilleur chemin pour récuperer des resssources</p>
           <br>
         </div>
       </div>
 
     </form>
-    <button
-      class="ui bottom green attached button {{if model.truck.isDelivering "disabled" ""}}"
-      type="submit" {{action
-      'getStatus'}}>
+    <button class="ui bottom attached button " type="submit" {{action
+      'searchPos'}}>
       lancement
     </button>
   </div>

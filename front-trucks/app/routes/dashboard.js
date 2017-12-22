@@ -1,6 +1,4 @@
 import Ember from 'ember';
-import RSVP from 'rsvp';
-
 import ApplicationRouteMixin from 'ember-simple-auth/mixins/application-route-mixin';
 
 export default Ember.Route.extend(ApplicationRouteMixin,{
@@ -9,10 +7,11 @@ export default Ember.Route.extend(ApplicationRouteMixin,{
   sortProperties: ['name:asc'],
   user: Ember.computed.sort('model.users', 'sortProperties'),
   model() {
-    console.log(this.store.findAll('truck').__proto__);
-    return this.store.findAll('truck');
+    return this.get( 'store' ).findAll('marker');
   },
+
   actions: {
+
     createUser( name, password ) {
       const user = this.get('store').createRecord('user', { name }, { password });
       user.save();
