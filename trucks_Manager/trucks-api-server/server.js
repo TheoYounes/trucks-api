@@ -6,6 +6,8 @@ const logger = require('morgan');
 require('dotenv').config();
 const auth = require ('./routes/auth');
 const available_User = require ('./routes/userDisponible');
+const lancementAlgoIA = require ('./routes/lancementAlgoIA');
+
 
 const APIError = API.types.Error;
 mongoose.connect(process.env.DB, {useMongoClient: true});
@@ -119,7 +121,6 @@ app.use('/',auth);
 
 //route pemit to check if a user already exist
 app.use('/',available_User);
-
 
 app.use((req, res) => {
     front.sendError(new APIError(404, undefined, 'Not Found'), req, res);

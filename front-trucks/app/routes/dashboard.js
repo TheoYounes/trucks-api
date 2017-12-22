@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import ApplicationRouteMixin from 'ember-simple-auth/mixins/application-route-mixin';
+import RSVP from 'rsvp';
 
 export default Ember.Route.extend(ApplicationRouteMixin,{
   searchPosition: Ember.inject.service(),
@@ -7,7 +8,10 @@ export default Ember.Route.extend(ApplicationRouteMixin,{
   sortProperties: ['name:asc'],
   user: Ember.computed.sort('model.users', 'sortProperties'),
   model() {
-    return this.get( 'store' ).findAll('marker');
+    return RSVP.hash({
+      markers: this.get('store').findAll('marker'),
+      trucks: this.get('store').findAll('truck')
+    });
   },
 
   actions: {
