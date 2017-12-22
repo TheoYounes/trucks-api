@@ -13,15 +13,15 @@
 # avant-de-commencer
 installer mongoDB sur [ici](https://docs.mongodb.com/manual/administration/install-community/): 
 
-```
 installer ember : 
 ```
 npm install -g ember-cli
 npm install -g bower
 
+```
 
 # lancement-front
-```
+
 si vous voulez lancer l'application en mode production allez directement à l'étape docker.
 Cependant en mode dev il faut : 
 ```
