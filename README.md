@@ -18,9 +18,10 @@ installer ember :
 ```
 npm install -g ember-cli
 npm install -g bower
-```
+
 
 # lancement-front
+```
 si vous voulez lancer l'application en mode production allez directement à l'étape docker.
 Cependant en mode dev il faut : 
 ```
