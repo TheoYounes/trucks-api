@@ -270,6 +270,7 @@ const createCities = () => {
     Stock.find({})
         .then(stocks => {
             const x = Math.floor((Math.random() * stocks.length) + 1);
+            console.log(x);
             cities.map((city) => {
                 return new City({
                     name: city.name,

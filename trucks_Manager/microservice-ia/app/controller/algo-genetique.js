@@ -55,8 +55,6 @@ const mutate = (chromosome, arr) => {
 };
 
 const crossover = (child, parent) => {
-    // console.log('cross');
-    // console.log(parent);
     return child.map((gene, idx) => {
         if (Math.random() <= 0.3) {
             return parent[idx];
@@ -171,16 +169,6 @@ const manageBestChromos = (arrayParent, bestChromosArray) => {
   }
 };
 
-const calculateAverage = bestChromos => {
-  let average = 0;
-  let totValue = 0;
-  for(let i = 0; i < bestChromos.length; i++) {
-    totValue += bestChromos[i][nbElmMax];
-  }
-  average = totValue / bestChromos.length;
-  return average;
-};
-
 const cleanArray = array => {
   let i, j, len = array.length, out = [], obj = {};
   for (i = 0; i < len; i++) {
@@ -203,7 +191,7 @@ const mainAlgo = async () => {
                 distancesCities[key] = distances[i].distance;
             }
         });
-    for(let i = 0; i < process.env.nb_dist_cities; i++) {
+    for(let i = 0; i < cities.length; i++) {
         const key = cities[i].name;
         reformatCities[key] = cities[i].ressources;
     }
@@ -226,15 +214,7 @@ const mainAlgo = async () => {
             arrSortChild = score(childs, distancesCities);
             arrSortParent = score(arrParrent, distancesCities);
             arrParentValueDist = selectionChromo(arrSortChild, arrSortParent);
-            // console.log(arrParentValueDist);
-            console.log(`iteration N° ${i}`);
             bestChromos = manageBestChromos(arrParentValueDist, bestChromos);
-            if(-marginError < (arrParrent[1][nbElmMax] - calculateAverage(bestChromos)) && (arrParrent[1][nbElmMax] - calculateAverage(bestChromos)) < marginError && i > maxIteration/2) {
-                console.log(arrParrent[1][nbElmMax] - calculateAverage(bestChromos));
-                // console.log(`average triggered`);
-
-                i = maxIteration;
-            }
             i++;
 
         }
@@ -242,11 +222,12 @@ const mainAlgo = async () => {
         console.log(err);
     }
 
-    // console.log(`Meilleur chemin`);
-    // console.log(arrParentValueDist[0]);
+    console.log(`Meilleur chemin`);
+    console.log(arrParentValueDist[0]);
     return arrParentValueDist[0];
     // console.log(arrayFull);
 };
+mainAlgo();
 // > qsd.sort((a,c) => (a[0] < c[0]) ? -1 : 1)
 // distance = distance[[ville1, ville2].sort().join('')];
 // distanceChromo += parseInt([distancesCities].filter((dist) => departure+arrival === dist[0])[1]);
