@@ -17,10 +17,12 @@
       </div>
 
     </form>
+    {{#if notDelivering}}
     <button class="ui bottom attached button " type="submit" {{action
       'searchPos'}}>
       lancement
     </button>
+      {{/if}}
   </div>
 </div>
 
