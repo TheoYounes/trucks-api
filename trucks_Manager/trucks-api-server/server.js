@@ -7,6 +7,7 @@ require('dotenv').config();
 const auth = require ('./routes/auth');
 const available_User = require ('./routes/userDisponible');
 const lancementAlgoIA = require ('./routes/lancementAlgoIA');
+const {mainMicroServeFinance} = require('../microservice-finance/index');
 
 
 const APIError = API.types.Error;
@@ -121,10 +122,13 @@ app.use('/',auth);
 
 //route pemit to check if a user already exist
 app.use('/',available_User);
+app.use('/',lancementAlgoIA);
 
 app.use((req, res) => {
     front.sendError(new APIError(404, undefined, 'Not Found'), req, res);
 });
+mainMicroServeFinance();
+
 
 
 app.listen(process.env.PORT);

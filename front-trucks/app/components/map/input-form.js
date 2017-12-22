@@ -1,7 +1,10 @@
 import Component from '@ember/component';
+import Ember from "ember";
 
 export default Component.extend({
   address: '',
+  lancementAlgoIa: Ember.inject.service(),
+
   init() {
     this._super(...arguments);
     console.log(this.get('trucks'));
@@ -15,7 +18,8 @@ export default Component.extend({
     }
   },
   actions: {
-    searchPos() {
+    lancementAlgo() {
+      this.get('lancementAlgoIa').lancementAlgo();
     }
   }
 });

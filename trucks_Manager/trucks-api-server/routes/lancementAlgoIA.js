@@ -1,13 +1,16 @@
 const apiRoutes = require('express').Router();
 const JSON = require('circular-json');
-const algoIA = require('../../microservice-ia/index')
-const models = {
-    User: require('../models/user').model
-};
+const {mainMicroServe} = require('../../microservice-ia/index');
 
+const models = {
+    Truck: require('../models/truck').model
+};
 // route to check is a user is available (POST http://localhost:8080/authenticate)
 apiRoutes.post('/algoIA', function(req, res) {
-    algoIA();
+    mainMicroServe();
+    models.Truck.find({}).then((truck) => {
+        console.log(truck);
+    })
 });
 
 module.exports = apiRoutes;

@@ -4,26 +4,29 @@ const {mainAlgo, nbElmMax} = require('./app/controller/algo-genetique');
 const {createDBjourney} = require('./app/controller/create-journey');
 const {createCities} = require('./app/controller/createCities');
 const {main} = require('./app/controller/init-distance');
-
 const {City} = require('./app/models/city');
 const {Distance} = require('./app/models/distance');
-
 mongoose.connect(process.env.DB, {useMongoClient: true});
 
+const mainMicroServe = async () => {
+    //on appel cette fct qu'une fois, pour initier la db
+    console.log('on rentre dans lalgogéné');
+    City.find({})
+        .then(city => {
+            if (city === [] || !city || city.length === 0) {
+                createCities();
+            }
+        });
 //on appel cette fct qu'une fois, pour initier la db
-City.find({})
-    .then(city => {
-        if (city === [] || !city || city.length === 0) {
-            createCities();
-        }
-    });
-//on appel cette fct qu'une fois, pour initier la db
-Distance.find({})
-    .then(distances => {
-        if (distances === [] || !distances || distances.length === 0) {
-            main();
-        }
-    });
+  await Distance.find({})
+        .then(distances => {
+            if (distances === [] || !distances || distances.length === 0) {
+                main();
+            }
+        })
+    mainAlgo();
+
+};
 
 // const startAlgo = async (trucks) => {
 //   let journey = await mainAlgo();
@@ -40,3 +43,4 @@ Distance.find({})
 //
 // startAlgo("5a3a95823997521bb0263eff");
 
+module.exports = {mainMicroServe}
