@@ -2,12 +2,12 @@
 
 
 # contenu
-* [avant de commencer](#avant-de-commencer)
-* [lancement de la partie cliente](#lancement-front)
-* [lancement du server](#lancement-serveur)
-* [partie docker](#docker)
-* [l'authentification](#authentification)
-* [les micro-services](#micro-services)
+*[avant de commencer](#avant-de-commencer)
+*[lancement de la partie cliente](#lancement-front)
+*[lancement du server](#lancement-serveur)
+*[partie docker](#docker)
+*[l'authentification](#authentification)
+*[les micro-services](#micro-services)
 
 
 # avant-de-commencer
