@@ -37,7 +37,7 @@ const getValue = async symbol => {
     return stock.financialData.currentPrice;
 };
 
-const main = async () => {
+const mainMicroServeFinance = async () => {
 
     const valuesPromises = stocks.map(a => getValue(a));
     const results = await Promise.all(valuesPromises);
@@ -49,7 +49,8 @@ const main = async () => {
         createOrUpdateStock(a, results[idx]);
     });
 
-    console.log(formattedResults);
-};
+    //console.log(formattedResults);
+    setInterval(mainMicroServeFinance, 30000);
 
-setInterval(main, 30000);
+};
+module.exports = {mainMicroServeFinance}
