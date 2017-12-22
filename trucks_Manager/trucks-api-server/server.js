@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 const logger = require('morgan');
 require('dotenv').config();
-const auth = require ('./routes/authenticate');
-const available_User = require ('./routes/availableUser');
+const auth = require ('./routes/auth');
+const available_User = require ('./routes/userDisponible');
 
 const APIError = API.types.Error;
 mongoose.connect(process.env.DB, {useMongoClient: true});
@@ -15,7 +15,6 @@ const bodyParser = require("body-parser");
 const models = {
     User: require('./models/user').model,
     Truck: require('./models/truck').model,
-    Fleet: require('./models/fleet').model,
     City: require('./models/city').model,
     Journey: require('./models/journey').model,
     Marker: require('./models/marker').model
@@ -25,7 +24,6 @@ const models = {
 const registryTemplates = {
     users: require('./models/user').registry,
     trucks: require('./models/truck').registry,
-    fleets: require('./models/fleet').registry,
     cities: require('./models/city').registry,
     journeys: require('./models/journey').registry,
     markers: require('./models/marker').registry
@@ -56,6 +54,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(logger('dev'));
+
 
 const db = [
     'users',

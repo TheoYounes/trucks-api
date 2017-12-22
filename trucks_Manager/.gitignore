@@ -109,3 +109,6 @@ typings/
 
 # dotenv environment variables file
 #.env
+#data and opt from mongo
+./opt
+./data
