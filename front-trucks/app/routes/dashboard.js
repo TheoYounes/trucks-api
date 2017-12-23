@@ -3,7 +3,6 @@ import ApplicationRouteMixin from 'ember-simple-auth/mixins/application-route-mi
 import RSVP from 'rsvp';
 
 export default Ember.Route.extend(ApplicationRouteMixin,{
-  searchPosition: Ember.inject.service(),
   session: Ember.inject.service('session'),
   sortProperties: ['name:asc'],
   user: Ember.computed.sort('model.users', 'sortProperties'),
