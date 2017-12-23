@@ -9,7 +9,8 @@ export default Ember.Route.extend(ApplicationRouteMixin,{
   model() {
     return RSVP.hash({
       markers: this.get('store').findAll('marker'),
-      trucks: this.get('store').findAll('truck')
+      trucks: this.get('store').findAll('truck'),
+      journeys: this.get('store').findAll('journey')
     });
   },
 

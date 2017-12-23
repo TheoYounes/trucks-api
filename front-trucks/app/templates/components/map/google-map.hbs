@@ -1,3 +1,20 @@
-{{g-map lat=latitude lng=longitude zoom=myZoom}}
+{{#g-map lat=latitude lng=longitude zoom=myZoom as |context|}}
 
+      {{g-map-address-route context
+                            travelMode='driving' strokeColor=colors
+                            originAddress=depart
+                            destinationAddress=destination}}
+
+
+{{/g-map}}
+<select  onchange={{action "select" value="target.value"}}>
+
+    {{#each departs as |depart|}}
+    {{#each destinations as |destination|}}
+      <option value="{{depart}}-{{destination}}" >{{depart}}-{{destination}} </option>
+      {{depart}}
+    {{/each}}
+
+  {{/each}}
+</select>
 {{yield}}
