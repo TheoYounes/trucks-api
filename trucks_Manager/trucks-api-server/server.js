@@ -127,7 +127,12 @@ app.use('/',lancementAlgoIA);
 app.use((req, res) => {
     front.sendError(new APIError(404, undefined, 'Not Found'), req, res);
 });
-mainMicroServeFinance();
+try{
+    mainMicroServeFinance();
+
+}catch (err) {
+    console.log(err);
+}
 
 
 

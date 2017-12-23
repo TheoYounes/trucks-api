@@ -225,10 +225,6 @@ const mainAlgo = async () => {
     console.log(`Meilleur chemin`);
     console.log(arrParentValueDist[0]);
     return arrParentValueDist[0];
-    // console.log(arrayFull);
 };
-// mainAlgo();
-// > qsd.sort((a,c) => (a[0] < c[0]) ? -1 : 1)
-// distance = distance[[ville1, ville2].sort().join('')];
-// distanceChromo += parseInt([distancesCities].filter((dist) => departure+arrival === dist[0])[1]);
-module.exports = {mainAlgo, nbElmMax};
+
+module.exports = {mainAlgo};

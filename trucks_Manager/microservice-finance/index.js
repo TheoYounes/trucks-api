@@ -38,19 +38,21 @@ const getValue = async symbol => {
 };
 
 const mainMicroServeFinance = async () => {
+    try {
+        const valuesPromises = stocks.map(a => getValue(a));
+        const results = await Promise.all(valuesPromises);
+        const formattedResults = stocks.map((a, idx) => {
+            return {[a]: results[idx]};
+        });
 
-    const valuesPromises = stocks.map(a => getValue(a));
-    const results = await Promise.all(valuesPromises);
-    const formattedResults = stocks.map((a, idx) => {
-        return {[a]: results[idx]};
-    });
+        stocks.map((a, idx) => {
+            createOrUpdateStock(a, results[idx]);
+        });
 
-    stocks.map((a, idx) => {
-        createOrUpdateStock(a, results[idx]);
-    });
-
-    //console.log(formattedResults);
-    setInterval(mainMicroServeFinance, 30000);
-
+        //console.log(formattedResults);
+        setInterval(mainMicroServeFinance, 600000);
+    } catch (err) {
+        console.log(err);
+    }
 };
 module.exports = {mainMicroServeFinance}

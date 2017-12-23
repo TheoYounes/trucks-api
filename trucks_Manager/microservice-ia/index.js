@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const {mainAlgo, nbElmMax} = require('./app/controller/algo-genetique');
+const {mainAlgo} = require('./app/controller/algo-genetique');
 const {createDBjourney} = require('./app/controller/create-journey');
 const {createCities} = require('./app/controller/createCities');
 const {main} = require('./app/controller/init-distance');
@@ -18,29 +18,23 @@ const mainMicroServe = async () => {
             }
         });
 //on appel cette fct qu'une fois, pour initier la db
-  await Distance.find({})
+    await Distance.find({})
         .then(distances => {
             if (distances === [] || !distances || distances.length === 0) {
                 main();
             }
-        })
-    mainAlgo();
+        });
+    let trajets = await mainAlgo();
+    let etapes = [];
+    let ressources = [];
+    for (let i = 0; i < trajets.length - 2; i++) {
+        etapes.push(trajets[i][0]);
+        ressources.push(trajets[i][1]);
+    }
+    createDBjourney(etapes, ressources);
+
 
 };
 
-// const startAlgo = async (trucks) => {
-//   let journey = await mainAlgo();
-//   let steps = [];
-//   let ressources = [];
-//   console.log(journey);
-//   for(let i = 0; i < nbElmMax - 1; i++) {
-//     steps.push(journey[i][0]);
-//     ressources.push(journey[i][1]);
-//   }
-//   createDBjourney(steps, ressources, trucks);
-// };
-//
-//
-// startAlgo("5a3a95823997521bb0263eff");
 
-module.exports = {mainMicroServe}
+module.exports = {mainMicroServe};
