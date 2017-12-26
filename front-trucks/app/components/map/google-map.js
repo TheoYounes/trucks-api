@@ -5,45 +5,53 @@ export default Component.extend({
   latitude: 47.0833300,
   longitude: 2.34,
   myZoom: 6,
-  departs:'',
+  departs: '',
   destinations: '',
-  depart:'',
-  destination:'',
-  colors:'red',
+  depart: '',
+  destination: '',
+  trajet: '',
+  colors: 'red',
   init() {
     this._super(...arguments);
     const journeys = this.get('journeys').content;
-    const colors = ['blue','dark','pink','green','red','yellow'];
-    let destination = [];
+    const colors = ['blue', 'dark', 'pink', 'green', 'red', 'yellow'];
+    let trajet = [];
     let depart = [];
 
-    // console.log(journeys);
-    if(journeys){
+    console.log(journeys[0]);
+    if (journeys) {
       journeys.map((journey) => {
-        for(let i = 0; i < journey._data.steps.length; i++ ) {
-          if( i % 2 === 0 ) {
-            depart.push(journey._data.steps[i]);
-            console.log(i+'pair'+journey._data.steps[i]);
+          trajet.push(journey._data.steps);
 
-          }
-          else {
-            destination.push(journey._data.steps[i]);
-            console.log(i+'impair'+journey._data.steps[i]);
-          }
-          this.set('colors',colors[i]);
-
-        }
       });
-      this.set('departs',depart);
-      this.set('destinations',destination);
+
     }
+    this.set("trajet", trajet);
+    console.log(this.get("trajet"));
   },
   actions: {
-    select(trajets) {
-      trajets = trajets.split('-');
-      this.set('depart',[trajets[0]]);
-      this.set('destination',[trajets[1]]);
-      console.log(this.get('depart')+this.get('destination'))
+    select(trajet) {
+      let depart = [];
+      let destination = [];
+
+      trajet = trajet.split(',');
+      for(let i = 0; i < trajet.length; i++ ) {
+        if( i % 2 === 0 ) {
+          depart.push(trajet[i]);
+        }
+        else {
+          destination.push(trajet[i]);
+
+        }
+
+      }
+      this.set('departs', [depart]);
+      this.set('destinations', [destination]);
+
+      console.log(this.get('departs') +'yolo'+ this.get('destinations'));
+
+      }
     }
-}});
+
+});
 
