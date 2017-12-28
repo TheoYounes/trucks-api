@@ -45,8 +45,8 @@ export default Component.extend({
         }
 
       }
-      this.set('departs', [depart]);
-      this.set('destinations', [destination]);
+      this.set('departs', depart);
+      this.set('destinations', destination);
 
       console.log(this.get('departs') +'yolo'+ this.get('destinations'));
 
