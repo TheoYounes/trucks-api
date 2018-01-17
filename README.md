@@ -115,34 +115,18 @@ Après avoir lancé l'algo génetique en cliquant sur le bouton de lancement, no
 Pour le style géneral de l'application nous avons utilisé Semantic-ui dont les styles sont sobres.
 
 # results
-![alt text](src/assets/register.png "Registering")
+![alt text](screenshots/login.png "index")
 
 
-                  Display all users
+                  Registering
                   ------------------
                   
-![alt text](src/assets/all_User.png "Display all users")
+![alt text](screenshots/registering.png "registering")
 
 
-                  Filtering by name
+                  Dashboard
                   ------------------
                   
-![alt text](src/assets/searchFullText.png "filtering by name")
+![alt text](screenshots/dashboard.png "dashboard")
 
-
-                  Filtering by job
-                  ------------------
                   
-![alt text](src/assets/searchByJob.png "filtering by job")
-
-
-                  Filtering by number 
-                  ------------------
-                  
-![alt text](src/assets/searchByNumber.png "filtering by number")
-
-
-                  Profile co-worker
-                  ------------------
-                  
-![alt text](src/assets/profileData.png "Profile co-worker")
