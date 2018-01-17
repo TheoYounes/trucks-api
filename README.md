@@ -101,6 +101,7 @@ Les chromosomes enfant ont 30% de chance de subir une mutation de leurs gênes ,
 Après ces éventuelles mutations, les chromosomes enfants auront la même architectureque l population parent mais subieront une mutation aléatoire de 30% avec les parents: cross-over(échange de gênes entre les parents et les enfants).
 Une fois cela fait on établit une sélection, on compare chaque chromosomes parents et on garde 60% des meilleurs(paramètre qui peut varier), c'est à dire le chromosome dont la somme de toutes les ressources récupérés est la plus élevée. Et on prendra 40% des meilleurs chromosomes enfants.
 On créer une nouvelle population parent avec ces deux sous-populations puis on recommence ces opérations jusqu'à trouver une suite des meilleurs parents qui ont les meilleurs résultats, c'est à dire, un chemin optimisé.
+Une fois que le lancement de l'algo, les trajets seront à selectionner endessous de la map, afin d'afficher les trajets sur la carte. Des fois la page nécessite d'etre raffréchie pour avoir les trajets
 
 # authentification:
 
