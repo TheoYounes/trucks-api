@@ -1,0 +1,5 @@
+XSym
+0126
+cd39c5001d453d4105fc3413af66770b
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-QvzvZbik.tmp/services/authentication.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,0 +1,5 @@
+XSym
+0118
+c1fa7c86994f9b4bd2ebc6811640075c
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-leaflet/app/components/geojson-layer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

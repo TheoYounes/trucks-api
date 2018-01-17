@@ -1,0 +1,5 @@
+XSym
+0135
+564d23a9b38e2e6087ef837e61660ef7
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-xS0wJS1A.tmp/mixins/authenticated-route-mixin.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

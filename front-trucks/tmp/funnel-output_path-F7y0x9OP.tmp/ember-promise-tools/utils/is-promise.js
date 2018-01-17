@@ -1,0 +1,5 @@
+XSym
+0119
+9b5a9d879b92877d60be9da709184bd9
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-KxLpMYwm.tmp/utils/is-promise.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

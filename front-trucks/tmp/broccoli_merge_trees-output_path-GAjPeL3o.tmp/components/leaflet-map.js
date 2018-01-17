@@ -1,0 +1,5 @@
+XSym
+0116
+a93b7a17495c75d33c7090b4ad8a9d05
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-leaflet/app/components/leaflet-map.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

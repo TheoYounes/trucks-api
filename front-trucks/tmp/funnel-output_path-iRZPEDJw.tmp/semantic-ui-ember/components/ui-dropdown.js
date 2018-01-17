@@ -1,0 +1,5 @@
+XSym
+0125
+889e62dc70c06251ea0a46fe36b74863
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-9v0pwQmx.tmp/components/ui-dropdown.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

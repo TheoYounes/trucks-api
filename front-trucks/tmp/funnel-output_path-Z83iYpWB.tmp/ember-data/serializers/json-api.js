@@ -1,0 +1,5 @@
+XSym
+0123
+2672104d3f1c52c93800a8a21877020a
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-w43UGeLa.tmp/serializers/json-api.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

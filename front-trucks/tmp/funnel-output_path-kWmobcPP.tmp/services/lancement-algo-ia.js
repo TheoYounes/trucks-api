@@ -1,0 +1,5 @@
+XSym
+0129
+f137e1a9bef1caefeae6a4d2091484e1
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-QvzvZbik.tmp/services/lancement-algo-ia.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

@@ -1,0 +1,5 @@
+XSym
+0123
+28a64b3c96484aa0f1fea8474401dfa0
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-xS0wJS1A.tmp/authenticators/torii.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

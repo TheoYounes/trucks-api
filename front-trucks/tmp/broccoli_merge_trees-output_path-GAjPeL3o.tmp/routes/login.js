@@ -1,0 +1,5 @@
+XSym
+0079
+1fb231252800a82503663c932861e93d
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/routes/login.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

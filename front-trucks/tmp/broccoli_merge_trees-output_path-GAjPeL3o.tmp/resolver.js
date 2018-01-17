@@ -1,0 +1,5 @@
+XSym
+0075
+af8158e93ad4b2da5ae21a23f3776c52
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/resolver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

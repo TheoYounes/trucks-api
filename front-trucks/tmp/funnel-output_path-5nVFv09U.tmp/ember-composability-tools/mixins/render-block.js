@@ -1,0 +1,5 @@
+XSym
+0122
+22beaf1ea8e9987302dc0b7a0c810378
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-pxrUgmZX.tmp/mixins/render-block.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

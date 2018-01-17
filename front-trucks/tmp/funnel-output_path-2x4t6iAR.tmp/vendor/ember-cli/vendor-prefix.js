@@ -1,0 +1,5 @@
+XSym
+0116
+11e61cfda7e7d7b45ad53d6d1ca9f9f2
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-0kzWpPe8.tmp/vendor-prefix.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

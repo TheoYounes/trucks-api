@@ -1,0 +1,5 @@
+XSym
+0113
+01329387e187dff83438e1dcc145f3d4
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-0kzWpPe8.tmp/app-suffix.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

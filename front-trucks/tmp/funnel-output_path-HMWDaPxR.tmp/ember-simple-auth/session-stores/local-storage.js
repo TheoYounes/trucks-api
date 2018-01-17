@@ -1,0 +1,5 @@
+XSym
+0131
+7858af92f5e2cde8d19c235d09b15a27
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-xS0wJS1A.tmp/session-stores/local-storage.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

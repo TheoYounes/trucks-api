@@ -1,0 +1,5 @@
+XSym
+0132
+9e4c6928caa6028da077d2703183cd90
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/broccoli_merge_trees-input_base_path-QrKoX1Hq.tmp/6/helpers/point.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

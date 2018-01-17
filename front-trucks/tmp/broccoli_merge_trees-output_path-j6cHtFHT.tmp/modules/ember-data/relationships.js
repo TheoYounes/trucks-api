@@ -1,0 +1,5 @@
+XSym
+0151
+5a40a7ed41cab17c66760362185f8e1d
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/broccoli_merge_trees-input_base_path-gIUfXeAg.tmp/0/modules/ember-data/relationships.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

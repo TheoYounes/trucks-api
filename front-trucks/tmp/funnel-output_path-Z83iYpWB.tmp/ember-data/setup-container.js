@@ -1,0 +1,5 @@
+XSym
+0108
+ba362fe6fd3ffc9974660c42dcf4faa9
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-data/addon/setup-container.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

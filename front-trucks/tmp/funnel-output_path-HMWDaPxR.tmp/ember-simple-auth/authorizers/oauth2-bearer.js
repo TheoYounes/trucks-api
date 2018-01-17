@@ -1,0 +1,5 @@
+XSym
+0128
+3db16c88e9fdc8784333f3664e7bd341
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-xS0wJS1A.tmp/authorizers/oauth2-bearer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

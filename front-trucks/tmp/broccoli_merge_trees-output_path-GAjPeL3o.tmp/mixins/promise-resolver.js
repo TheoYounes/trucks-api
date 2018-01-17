@@ -1,0 +1,5 @@
+XSym
+0123
+fe7bf028c369f5bfb58e6a823a40f468
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-promise-tools/app/mixins/promise-resolver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

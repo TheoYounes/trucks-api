@@ -1,0 +1,5 @@
+XSym
+0107
+63f44bc1400e4b8681044878b8bb1982
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-source/dist/ember-testing.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

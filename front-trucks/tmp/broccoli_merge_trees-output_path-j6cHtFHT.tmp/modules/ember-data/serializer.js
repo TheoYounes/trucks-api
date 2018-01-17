@@ -1,0 +1,5 @@
+XSym
+0148
+b86aa1610e4f486e74ede83c93ae8f4f
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/broccoli_merge_trees-input_base_path-gIUfXeAg.tmp/0/modules/ember-data/serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

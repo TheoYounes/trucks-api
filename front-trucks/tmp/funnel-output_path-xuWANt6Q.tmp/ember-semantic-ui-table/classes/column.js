@@ -1,0 +1,5 @@
+XSym
+0117
+1298a6f0977c249b11fbedb1ecd7c79d
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-ZyW5DE4I.tmp/classes/column.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

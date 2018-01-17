@@ -1,0 +1,5 @@
+XSym
+0145
+4a7f6fd99323d92784101d43e03caa4c
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-Zj0ro3KB.tmp/-private/system/record-arrays/record-array.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

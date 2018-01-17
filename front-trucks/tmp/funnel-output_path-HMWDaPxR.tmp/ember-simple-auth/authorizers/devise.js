@@ -1,0 +1,5 @@
+XSym
+0121
+ffb27f31806bedfd5114c8e74f305e46
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-xS0wJS1A.tmp/authorizers/devise.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

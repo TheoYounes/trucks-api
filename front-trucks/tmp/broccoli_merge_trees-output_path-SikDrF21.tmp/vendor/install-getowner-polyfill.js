@@ -1,0 +1,5 @@
+XSym
+0132
+6b9acddc9cf65a7392c7ad9707298c4c
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-getowner-polyfill/vendor/install-getowner-polyfill.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

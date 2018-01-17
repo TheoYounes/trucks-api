@@ -1,0 +1,5 @@
+XSym
+0102
+4e2773069e2ba162e7827cd359b32558
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-data/addon/transform.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

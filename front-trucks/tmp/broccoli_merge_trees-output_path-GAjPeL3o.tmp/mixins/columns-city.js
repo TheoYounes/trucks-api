@@ -1,0 +1,5 @@
+XSym
+0086
+91f4f213e784d36f9622b12fdb61b752
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/mixins/columns-city.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

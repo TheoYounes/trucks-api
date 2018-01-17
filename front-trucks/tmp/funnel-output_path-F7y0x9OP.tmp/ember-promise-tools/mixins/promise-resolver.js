@@ -1,0 +1,5 @@
+XSym
+0126
+afd6a00c900d03e4610497b16b2b3d6d
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-KxLpMYwm.tmp/mixins/promise-resolver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

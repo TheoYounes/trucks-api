@@ -1,0 +1,5 @@
+XSym
+0123
+40dab5818743d41e2609909d22084997
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-2eGidYGj.tmp/mixins/adapter-fetch.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

@@ -1,0 +1,5 @@
+XSym
+0116
+fc7a12cc2bb6de5f70e3a71c1dda7c87
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-4fnfukyo.tmp/ember-testing.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

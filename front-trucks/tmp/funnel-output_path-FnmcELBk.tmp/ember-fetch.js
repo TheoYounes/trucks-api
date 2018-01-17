@@ -1,0 +1,5 @@
+XSym
+0094
+9081e2349cf0715eb60e08c4add2f70c
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/whatwg-fetch/fetch.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

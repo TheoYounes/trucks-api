@@ -1,0 +1,6 @@
+define("ember-g-map/templates/components/g-map-address-marker", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "/AR9/AOy", "block": "{\"symbols\":[\"markerContext\",\"&default\"],\"statements\":[[4,\"if\",[[22,2]],null,{\"statements\":[[4,\"g-map-marker\",[[20,[\"mapContext\"]]],[[\"lat\",\"lng\",\"viewport\",\"icon\",\"label\",\"group\",\"title\",\"onClick\",\"onDrag\"],[[20,[\"lat\"]],[20,[\"lng\"]],[20,[\"viewport\"]],[20,[\"icon\"]],[20,[\"label\"]],[20,[\"group\"]],[20,[\"title\"]],[20,[\"onClick\"]],[20,[\"onDrag\"]]]],{\"statements\":[[0,\"    \"],[11,2,[[19,1,[]]]],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},{\"statements\":[[0,\"  \"],[1,[25,\"g-map-marker\",[[20,[\"mapContext\"]]],[[\"lat\",\"lng\",\"viewport\",\"icon\",\"label\",\"title\",\"group\",\"onClick\",\"onDrag\"],[[20,[\"lat\"]],[20,[\"lng\"]],[20,[\"viewport\"]],[20,[\"icon\"]],[20,[\"label\"]],[20,[\"title\"]],[20,[\"group\"]],[20,[\"onClick\"]],[20,[\"onDrag\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "ember-g-map/templates/components/g-map-address-marker.hbs" } });
+});

@@ -1,0 +1,5 @@
+XSym
+0106
+7e62aac19da912e0d6e6a70daa890c74
+/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-data/addon/relationships.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

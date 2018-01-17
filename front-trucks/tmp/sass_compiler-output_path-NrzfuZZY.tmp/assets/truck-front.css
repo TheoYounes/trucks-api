@@ -1,0 +1,58 @@
+.login-page .image {
+  margin-top: -100px; }
+
+.login-page .column {
+  max-width: 450px;
+  background-color: lightgray; }
+
+.login-page .content {
+  color: black; }
+
+.map-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+
+.g-map-canvas {
+  height: 500px; }
+
+body {
+  background-color: #EEE;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px; }
+
+body > .grid {
+  height: 100%; }
+
+.ember-cli-g-map {
+  width: 100%;
+  height: 700px; }
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-left: auto;
+  margin-right: auto; }
+
+.card-explanation {
+  text-align: center; }
+
+.center-card {
+  margin-left: 22%;
+  margin-right: auto; }
+
+.title {
+  text-align: center;
+  font-size: 150px; }
+
+.home {
+  margin-left: auto;
+  margin-right: auto; }
+
+.card {
+  margin-top: 20%;
+  margin-left: 35%; }
+
+h1 {
+  font-size: 350%; }
+
+/*# sourceMappingURL=truck-front.css.map */
