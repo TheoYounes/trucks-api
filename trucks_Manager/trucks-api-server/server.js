@@ -7,7 +7,6 @@ require('dotenv').config();
 const auth = require ('./routes/auth');
 const available_User = require ('./routes/userDisponible');
 const lancementAlgoIA = require ('./routes/lancementAlgoIA');
-const {mainMicroServeFinance} = require('../microservice-finance/index');
 
 
 const APIError = API.types.Error;
@@ -74,24 +73,6 @@ app.options('*', (req, res) => {
 
 app.get('/api', front.docsRequest.bind(front));
 
-//permit to create easily in server side user
-app.get('/setup', function(req, res) {
-
-    // create a sample user
-    const user = new models.User({
-        name: 'camelot',
-        password: '02051995',
-        admin: true
-
-    });
-    // save the sample user
-    user.save(function(err) {
-        if (err) throw err;
-
-        console.log('User saved successfully');
-        res.json({ success: true });
-    });
-});
 app.post('/register', function (req, res) {
     let user =  {
         name: req.body.name,
@@ -127,12 +108,7 @@ app.use('/',lancementAlgoIA);
 app.use((req, res) => {
     front.sendError(new APIError(404, undefined, 'Not Found'), req, res);
 });
-try{
-    mainMicroServeFinance();
 
-}catch (err) {
-    console.log(err);
-}
 
 
 
