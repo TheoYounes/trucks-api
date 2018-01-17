@@ -35,7 +35,7 @@ ember server
 
 # lancement-serveur
 si vous voulez lancer l'application en mode production allez directement à l'étape docker.
-Cependant en mode dev il faut : 
+Cependant en mode dev il faut créer un fichier .env pour les serveurs, s'aider des variables env du docker-compose: 
 
 tout d'abord lancer la mongo: 
 ```
