@@ -1,5 +1,0 @@
-XSym
-0100
-8a22262f45fd77a6fc6c6c23c963310b
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-data/addon/adapter.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

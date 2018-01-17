@@ -1,1 +1,0 @@
-export default Ember.HTMLBars.template({"id":"nZ7rA+l5","block":"{\"symbols\":[],\"statements\":[[1,[25,\"t\",[[20,[\"column\",\"label\"]]],null],false],[0,\"\\n\"]],\"hasEval\":false}","meta":{"moduleName":"ember-semantic-ui-table/templates/components/table-header/translatable.hbs"}});

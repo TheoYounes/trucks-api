@@ -1,5 +1,0 @@
-XSym
-0118
-6da0e9b2d2d1b4bf3ad2e96b6fd5f934
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-9v0pwQmx.tmp/mixins/checkbox.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

@@ -1,5 +1,0 @@
-XSym
-0137
-54d30edebdeb66c07b2fb941c922acfd
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-w43UGeLa.tmp/serializers/embedded-records-mixin.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,5 +1,0 @@
-XSym
-0142
-bfcdca30705f9792e906e51ab3aedc39
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/broccoli_merge_trees-input_base_path-QrKoX1Hq.tmp/5/components/g-map-marker.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

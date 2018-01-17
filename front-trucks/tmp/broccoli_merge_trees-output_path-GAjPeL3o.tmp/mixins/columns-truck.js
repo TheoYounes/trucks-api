@@ -1,5 +1,0 @@
-XSym
-0087
-64235e08f59829c0c2f5c22e3d6a412f
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/mixins/columns-truck.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

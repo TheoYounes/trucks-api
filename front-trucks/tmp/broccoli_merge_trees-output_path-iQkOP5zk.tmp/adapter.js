@@ -1,5 +1,0 @@
-XSym
-0126
-08cc0db2ec2dbe4d0717574ed2beb205
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/broccoli_merge_trees-input_base_path-eTnWX7gw.tmp/0/adapter.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

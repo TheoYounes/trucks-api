@@ -1,5 +1,0 @@
-XSym
-0105
-fca94d92eae5c9210bad6fc1a819e1af
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-cli/lib/broccoli/testem.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

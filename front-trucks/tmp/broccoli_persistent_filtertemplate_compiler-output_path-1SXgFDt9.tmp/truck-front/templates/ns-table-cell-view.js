@@ -1,1 +1,0 @@
-export default Ember.HTMLBars.template({"id":"g91pTAky","block":"{\"symbols\":[],\"statements\":[[1,[20,[\"view\",\"content\"]],false]],\"hasEval\":false}","meta":{"moduleName":"truck-front/templates/ns-table-cell-view.hbs"}});

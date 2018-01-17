@@ -1,5 +1,0 @@
-XSym
-0115
-7c4e9c1c4201b776be5661fa89d6c8c3
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-leaflet/app/components/base-layer.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

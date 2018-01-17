@@ -1,5 +1,0 @@
-XSym
-0126
-6321c2d72617ad1208827796a4ba2e24
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-4fnfukyo.tmp/ember-template-compiler.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

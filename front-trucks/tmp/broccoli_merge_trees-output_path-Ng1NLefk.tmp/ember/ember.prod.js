@@ -1,5 +1,0 @@
-XSym
-0104
-dd1a9b29d335ba0f5e0dbe7706c731f7
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-source/dist/ember.prod.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

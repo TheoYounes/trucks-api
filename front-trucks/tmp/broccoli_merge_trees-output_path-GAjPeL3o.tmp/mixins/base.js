@@ -1,5 +1,0 @@
-XSym
-0109
-f361490b153d71f57acb547bdfee2ea5
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/semantic-ui-ember/app/mixins/base.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

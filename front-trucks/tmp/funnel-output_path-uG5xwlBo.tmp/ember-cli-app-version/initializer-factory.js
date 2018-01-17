@@ -1,5 +1,0 @@
-XSym
-0122
-78c58cab682f2ed8bd49911e75dd6616
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-bU4g1S5O.tmp/initializer-factory.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

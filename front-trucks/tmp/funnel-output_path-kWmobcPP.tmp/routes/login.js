@@ -1,5 +1,0 @@
-XSym
-0115
-078008f0d5bc09f2d3333f9f16eb7d6b
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-QvzvZbik.tmp/routes/login.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

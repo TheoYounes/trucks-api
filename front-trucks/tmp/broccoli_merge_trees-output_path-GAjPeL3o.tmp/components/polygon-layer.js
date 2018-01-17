@@ -1,5 +1,0 @@
-XSym
-0118
-d7eeb419bb4749a66267970be3d586d8
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-leaflet/app/components/polygon-layer.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

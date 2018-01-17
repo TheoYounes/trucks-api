@@ -1,5 +1,0 @@
-XSym
-0122
-03c730bb35d4846cbafbdbd5800f4cdb
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-9v0pwQmx.tmp/components/ui-popup.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

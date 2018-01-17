@@ -1,1 +1,0 @@
-export default Ember.HTMLBars.template({"id":"WiQvK2Tm","block":"{\"symbols\":[],\"statements\":[[1,[18,\"index\"],false],[0,\"\\n\"]],\"hasEval\":false}","meta":{"moduleName":"ember-semantic-ui-table/templates/components/table-cell/row-index.hbs"}});

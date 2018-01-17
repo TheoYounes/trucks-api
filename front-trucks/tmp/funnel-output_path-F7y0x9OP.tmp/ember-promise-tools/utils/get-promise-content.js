@@ -1,5 +1,0 @@
-XSym
-0128
-e67df9735ecaf73c1835e8281070b2be
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-KxLpMYwm.tmp/utils/get-promise-content.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

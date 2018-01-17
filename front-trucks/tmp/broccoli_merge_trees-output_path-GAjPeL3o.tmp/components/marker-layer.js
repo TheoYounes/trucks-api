@@ -1,5 +1,0 @@
-XSym
-0117
-04943f21f1a3d7e20b8061a0b00e75da
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-leaflet/app/components/marker-layer.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

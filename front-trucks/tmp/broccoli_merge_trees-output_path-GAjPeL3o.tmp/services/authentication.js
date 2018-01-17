@@ -1,5 +1,0 @@
-XSym
-0090
-64fbd60d300904b37908be20e0b4d002
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/services/authentication.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

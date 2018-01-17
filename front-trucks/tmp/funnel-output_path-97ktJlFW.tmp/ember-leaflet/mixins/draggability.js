@@ -1,5 +1,0 @@
-XSym
-0122
-937a9518694c8a25f3bb5b56ca7569ae
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-ngQdCjpI.tmp/mixins/draggability.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

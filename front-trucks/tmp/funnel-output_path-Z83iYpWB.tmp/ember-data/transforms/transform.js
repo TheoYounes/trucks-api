@@ -1,5 +1,0 @@
-XSym
-0123
-22b99afbd81f87cf3b72651128d341f1
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-w43UGeLa.tmp/transforms/transform.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

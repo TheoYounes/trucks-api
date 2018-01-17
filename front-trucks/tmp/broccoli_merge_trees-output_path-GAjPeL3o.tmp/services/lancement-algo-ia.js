@@ -1,5 +1,0 @@
-XSym
-0093
-3f88a3817662f7e5ff0e3a6dcad4161b
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/services/lancement-algo-ia.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

@@ -1,5 +1,0 @@
-XSym
-0117
-736b2441edcd28f91478ef82e1168f6d
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-source/dist/ember-template-compiler.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

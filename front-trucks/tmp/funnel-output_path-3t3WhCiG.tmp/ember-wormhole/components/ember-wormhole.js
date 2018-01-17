@@ -1,5 +1,0 @@
-XSym
-0128
-937d25986aaa6f5c6598c6644b57bc8f
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-bIDP2WDt.tmp/components/ember-wormhole.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

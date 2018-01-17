@@ -1,5 +1,0 @@
-XSym
-0082
-6537231810445c8ae6614dd5d61afcaf
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/app/routes/register.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

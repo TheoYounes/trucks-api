@@ -1,5 +1,0 @@
-XSym
-0124
-f501150562f671fad30bfe2427befc22
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/tmp/funnel-input_base_path-ngQdCjpI.tmp/components/path-layer.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

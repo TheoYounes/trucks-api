@@ -1,5 +1,0 @@
-XSym
-0103
-470e0b3359521ea842cf45e01efc4caf
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-data/addon/serializer.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

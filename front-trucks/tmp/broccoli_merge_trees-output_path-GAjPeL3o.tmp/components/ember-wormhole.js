@@ -1,5 +1,0 @@
-XSym
-0120
-563dcae27f0884dfc340b9f64c7579b1
-/Users/camelot/workspace/projetGary/trucks-api/front-trucks/node_modules/ember-wormhole/app/components/ember-wormhole.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
