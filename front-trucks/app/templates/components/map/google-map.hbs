@@ -9,6 +9,7 @@
   {{/each}}
 
 {{/g-map}}
+Veuillez selectionner votre trajet :
 <select onchange={{action "select" value="target.value"}}>
   {{#each trajet as |traj|}}
     <option value="{{traj}}">{{traj}} </option>

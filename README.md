@@ -113,3 +113,36 @@ Pour notre partie client, nous avons utilisé le framework Ember.
 Ce framework est un peu long à prendre en main mais permet de passer très vite sur les questions de configuration.
 Après avoir lancé l'algo génetique en cliquant sur le bouton de lancement, nous affichons sur la map les différents trajets du camion(trajets étant des sous parties du chemin optimisé de l'algo)
 Pour le style géneral de l'application nous avons utilisé Semantic-ui dont les styles sont sobres.
+
+# results
+![alt text](src/assets/register.png "Registering")
+
+
+                  Display all users
+                  ------------------
+                  
+![alt text](src/assets/all_User.png "Display all users")
+
+
+                  Filtering by name
+                  ------------------
+                  
+![alt text](src/assets/searchFullText.png "filtering by name")
+
+
+                  Filtering by job
+                  ------------------
+                  
+![alt text](src/assets/searchByJob.png "filtering by job")
+
+
+                  Filtering by number 
+                  ------------------
+                  
+![alt text](src/assets/searchByNumber.png "filtering by number")
+
+
+                  Profile co-worker
+                  ------------------
+                  
+![alt text](src/assets/profileData.png "Profile co-worker")
