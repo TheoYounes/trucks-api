@@ -8,6 +8,7 @@
 * [partie docker](#docker)
 * [l'authentification](#authentification)
 * [les micro-services](#micro-services)
+* [le front-end](#front-end)
 
 
 # avant-de-commencer
@@ -84,24 +85,31 @@ localhost:27027
 
 ## micro-service-IA
 
-initie la table des villes grace à un fichier JSON contenant une quizaine de villes francaise
-initie la table des distances, contenant le distances entre les différentes villes,  directement après.
-lorsque l'utilisateur effectuera un départ de camion, l'algo génétique se mettra en route.
-il prendra les villes et les distances stockées precedemment et crée 10 chromosomes parent aléatoires, qui
-prendra en compte les noms des villes associés à leurs ressources et la distance totale du trajet ainsi que la somme de 
-toutes les ressources récupérées
-Les chromosomes enfant subissent une mutation de 30% de leurs gênes.
-Après les chromosomes enfants auront la meme architecture mais subieront une mutation aléatoire de 30% avec les parents: cross-over.
-C'est à dire que le gene d'un chromosome enfant a 30% de chances d'etre muté avec gêne parent.
-une fois cela fait on établit une sélection, on compare chaque chromosomes parents et on garde 60% des meilleurs 
-(paramètre qui peut varier). Et on prendra 40% des meilleurs chromosomes enfants.
-On recommence ces opérations jusqu'à trouver une suite des meilleurs parents qui ont les meilleurs résultats.
-C'est à dire que nous avons trouvé un chemin optimisé.
+Avant de passer au fonctionnement de notre micro-service, voici une introduction aux algo genetiques.
+[introduction](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol1/hmw/article1.html): 
+
+Elle est conseillé afin de bien appréhender les concepts de populations parents, enfants, de chromosomes et de gênes.
+
+
+Le micro-service initie la table des villes grace à un fichier JSON contenant une quizaine de villes francaises
+puis initie la table des distances, contenant le distances entre les différentes villes,  directement après.
+Lorsque l'utilisateur effectuera un départ de camion, l'algo génétique se mettra en route.
+Il prendra les villes et les distances stockées precedemment et crée 10 chromosomes parent aléatoirement,
+ces chromosomes prendront auront pour gênes,  les noms des villes associés à leurs ressources, la distance totale du trajet ainsi qu'à la somme de toutes les ressources récupérées(le gênes est l'association de tout ces paramètres).
+Une population de chromosomes enfant sera créer à partir des gênes parents.
+Les chromosomes enfant ont 30% de chance de subir une mutation de leurs gênes , c'est à dire un changement spontané de la ville du gêne.
+Après ces éventuelles mutations, les chromosomes enfants auront la même architectureque l population parent mais subieront une mutation aléatoire de 30% avec les parents: cross-over(échange de gênes entre les parents et les enfants).
+Une fois cela fait on établit une sélection, on compare chaque chromosomes parents et on garde 60% des meilleurs(paramètre qui peut varier), c'est à dire le chromosome dont la somme de toutes les ressources récupérés est la plus élevée. Et on prendra 40% des meilleurs chromosomes enfants.
+On créer une nouvelle population parent avec ces deux sous-populations puis on recommence ces opérations jusqu'à trouver une suite des meilleurs parents qui ont les meilleurs résultats, c'est à dire, un chemin optimisé.
 
 # authentification:
 
 Nous avons utilisé ce tutoriel pour l'authentification 
 [ici](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 
+# front-end
 
-
+Pour notre partie client, nous avons utilisé le framework Ember.
+Ce framework est un peu long à prendre en main mais permet de passer très vite sur les questions de configuration.
+Après avoir lancé l'algo génetique en cliquant sur le bouton de lancement, nous affichons sur la map les différents trajets du camion(trajets étant des sous parties du chemin optimisé de l'algo)
+Pour le style géneral de l'application nous avons utilisé Semantic-ui dont les styles sont sobres.
